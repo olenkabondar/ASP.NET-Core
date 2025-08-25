@@ -1,0 +1,55 @@
+# ================================
+# ASP.NET Core / C# backend
+# ================================
+bin/
+obj/
+[Bb]uild/
+[Ll]og/
+[Ll]ogs/
+.vs/
+*.db
+*.pdb
+*.mdb
+*.opendb
+*.log
+
+# Конфігурація з секретами
+appsettings.Development.json
+appsettings.*.json
+secrets.json
+
+# ================================
+# Node.js frontend (React, Angular, Vue)
+# ================================
+node_modules/
+dist/
+build/
+.cache/
+coverage/
+
+# Environment variables
+.env
+.env.*.local
+
+# ================================
+# IDE & tools
+# ================================
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.rsuser
+*.swp
+*.tmp
+*.temp
+*.bak
+
+# Rider / JetBrains
+*.sln.iml
+
+# ================================
+# OS files
+# ================================
+.DS_Store
+Thumbs.db
