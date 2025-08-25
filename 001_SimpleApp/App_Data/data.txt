@@ -1,0 +1,6 @@
+﻿1, Mobile Phone, 600, Grey, 0, Phones
+2, Laptop, 3200, Silver, 4, PC
+3, Keyboard, 35, Black, 12, PC
+4, Mouse, 10, White, 2, PC
+5, Pen, 1, Blue, 20, Office
+6, Notebook, 1, Red, 15, Office
