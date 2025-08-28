@@ -27,5 +27,14 @@ namespace _001_SimpleApp.Controllers
             // повертаємо файл
             return File(fileBytes, "application/octet-stream", fileName);
         }
+
+
+        // Дія для завантаження файлу (3 урок завдання 3)
+        public IActionResult DownloadFile()
+        {
+            var filePath = Path.Combine(Directory.GetCurrentDirectory(), "wwwroot", "LessonDescription.txt");
+
+            return PhysicalFile(filePath, "application/octet-stream", "LessonDescription.txt");
+        }
     }
 }
