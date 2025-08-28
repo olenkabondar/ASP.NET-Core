@@ -1,0 +1,26 @@
+﻿@model CalculatorApp.Models.CalculatorModel
+
+<h2>Калькулятор</h2>
+
+<form method="post">
+    <div>
+        <label>Введіть число 1:</label>
+        <input asp-for="Number1" />
+    </div>
+    <div>
+        <label>Введіть число 2:</label>
+        <input asp-for="Number2" />
+    </div>
+    <div> <label>Оберіть операцію:</label></div>
+    <div>
+        <button type="submit" name="operation" value="Add">+</button>
+        <button type="submit" name="operation" value="Subtract">-</button>
+        <button type="submit" name="operation" value="Multiply">*</button>
+        <button type="submit" name="operation" value="Divide">/</button>
+    </div>
+</form>
+
+@if (Model != null && Model.Operation != null)
+{
+    <h3>Результат: @Model.Result</h3>
+}
