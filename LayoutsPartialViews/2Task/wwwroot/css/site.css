@@ -1,0 +1,14 @@
+.page2-container {
+    display: flex;
+}
+
+.left-column {
+    width: 200px;
+    background-color: #f0f0f0;
+    padding: 10px;
+}
+
+.main-column {
+    flex: 1;
+    padding: 10px;
+}
