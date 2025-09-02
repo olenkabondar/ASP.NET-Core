@@ -1,0 +1,24 @@
+﻿@model CookieFormModel
+
+<h2>Збереження значення в Cookies</h2>
+
+<form asp-action="Index" method="post">
+    <div>
+        <label>Значення:</label>
+        <input asp-for="Value" />
+        <span asp-validation-for="Value"></span>
+    </div>
+
+    <div>
+        <label>Дата та час закінчення:</label>
+        <input asp-for="ExpirationDate" type="datetime-local" />
+        <span asp-validation-for="ExpirationDate"></span>
+    </div>
+
+    <button type="submit">Зберегти в Cookies</button>
+</form>
+
+@if (ViewBag.Message != null)
+{
+    <p style="color:green">@ViewBag.Message</p>
+}

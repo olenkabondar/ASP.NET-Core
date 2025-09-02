@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36414.22 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "1TaskStaticValue", "1TaskStaticValue\1TaskStaticValue.csproj", "{5843BBE2-0DE5-49FB-B541-5F174D3DF737}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "2TaskCookiesState", "2TaskCookiesState\2TaskCookiesState.csproj", "{626222E5-6B7F-4478-9CEA-8D10F23A3484}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{5843BBE2-0DE5-49FB-B541-5F174D3DF737}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5843BBE2-0DE5-49FB-B541-5F174D3DF737}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5843BBE2-0DE5-49FB-B541-5F174D3DF737}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5843BBE2-0DE5-49FB-B541-5F174D3DF737}.Release|Any CPU.Build.0 = Release|Any CPU
+		{626222E5-6B7F-4478-9CEA-8D10F23A3484}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{626222E5-6B7F-4478-9CEA-8D10F23A3484}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{626222E5-6B7F-4478-9CEA-8D10F23A3484}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{626222E5-6B7F-4478-9CEA-8D10F23A3484}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8F7A6C39-FFC6-46E8-9644-2448D8559E71}
+	EndGlobalSection
+EndGlobal
