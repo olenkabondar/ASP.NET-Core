@@ -1,0 +1,18 @@
+﻿@using MyModelBinding.Models
+@model MyFormModel
+
+<form asp-action="Home/Index" method="post">
+    <label>First</label>
+    <input name="First" />
+    <br />
+
+    <label>Second</label>
+    <input name="Second" />
+    <br />
+
+    <label>Count</label>
+    <input type="number" name="Count" />
+    <br />
+
+    <button type="submit">Create</button>
+</form>
