@@ -1,0 +1,29 @@
+﻿@{
+    ViewData["Title"] = "Калькулятор";
+}
+
+<h2>Калькулятор</h2>
+
+<form asp-action="Add" method="post">
+    <input type="text" name="a" required /> +
+    <input type="text" name="b" required />
+    <button type="submit">Додати</button>
+</form>
+
+<form asp-action="Subtract" method="post">
+    <input type="text" name="a" required /> -
+    <input type="text" name="b" required />
+    <button type="submit">Відняти</button>
+</form>
+
+<form asp-action="Multiply" method="post">
+    <input type="text" name="a" required /> ×
+    <input type="text" name="b" required />
+    <button type="submit">Помножити</button>
+</form>
+
+<form asp-action="Divide" method="post">
+    <input type="text" name="a" required /> ÷
+    <input type="text" name="b" required />
+    <button type="submit">Поділити</button>
+</form>
